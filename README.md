@@ -79,10 +79,3 @@ Deployment behavior and system-package support can change. If the build fails, r
 - The current image checks are basic quality/screening checks, not a trained tampering classifier.
 - Do not upload real personal documents to a public demo. Use synthetic or consented test documents and review the hosting provider's privacy/retention policies.
 
-## Suggested SIH improvements
-1. Add a document-type classifier and templates for one target department.
-2. Compare extracted fields across application documents.
-3. Integrate an authorized issuer verification API, if available.
-4. Add a labelled dataset of genuine and intentionally modified test documents.
-5. Evaluate precision, recall, false-positive rate, and performance on scanned/compressed documents.
-6. Add role-based access, audit logs, and a retention/deletion policy before handling real submissions.
